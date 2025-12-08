@@ -1,0 +1,169 @@
+/* Import fonts */
+
+@font-face {
+    font-family: light;
+    src: url('./fonts/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: reg;
+    src: url('./fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: mid;
+    src: url('./fonts/Raleway-Medium.ttf');
+}
+
+@font-face {
+    font-family: semi;
+    src: url('./fonts/Raleway-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: bold;
+    src: url('./fonts/Raleway-Bold.ttf');
+}
+
+
+
+
+
+
+
+/* ---------- Variables ---------- */
+
+:root {
+    --green: #2aa169;
+    --white: #fff;
+}
+
+
+
+
+
+
+
+/* ---------- Globals ---------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+
+/* ---------- Font family ---------- */
+
+.f-light {
+    font-family: light;
+}
+
+.f-reg {
+    font-family: reg;
+}
+
+.f-mid {
+    font-family: mid;
+}
+
+.f-semi {
+    font-family: semi;
+}
+
+.f-bold {
+    font-family: bold;
+}
+
+
+
+
+
+
+
+/* ----------- Colors ------------ */
+
+.txt-white {
+    color: var(--white);
+}
+
+.green-bg {
+    background-color: var(--green);
+}
+
+
+
+
+
+
+
+/* ---------- Spacing ------------ */
+
+.pt-05 {
+    padding-top: 0.5rem;
+}
+
+.pb-05 {
+    padding-bottom: 0.5rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.gap-05 {
+    gap: 0.5rem;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+/* ---------- Size ----------- */
+
+.sm-txt {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+/* ---------- Display ----------- */
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.sp-btw {
+    justify-content: space-between;
+}
+
+.v-center {
+    align-items: center;
+}

@@ -60,10 +60,17 @@
     color: inherit;
     outline: none;
     border: none;
+    font-weight: normal;
 }
 
 body {
     color: var(--black);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -129,6 +136,14 @@ body {
 
 
 /* ---------- Spacing ------------ */
+
+.mt-5r {
+    margin-top: 5rem;
+}
+
+.mt-2r {
+    margin-top: 2rem;
+}
 
 .pt-_5 {
     padding-top: 0.5rem;
@@ -203,6 +218,18 @@ body {
     letter-spacing: 2px;
 }
 
+.bottom-10pc {
+    bottom: 10%;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.transx-10r {
+    transform: translateX(10rem);
+}
+
 
 
 
@@ -234,6 +261,30 @@ body {
     font-size: 25px;
 }
 
+.w-100pc {
+    width: 100%;
+}
+
+.w-50pc8rem{
+    width: calc((100% / 2) + 8rem);
+}
+
+.w-50-2r {
+    width: calc((100% - 2rem) / 2);
+}
+
+.h-100pc {
+    height: 100%;
+}
+
+.h-40r {
+    height: 40rem;
+}
+
+.h-30r {
+    height: 30rem;
+}
+
 
 
 
@@ -245,6 +296,14 @@ body {
 .container {
     width: 1150px;
     margin: 0 auto;
+}
+
+.o-hide {
+    overflow: hidden;
+}
+
+.o-hide-x {
+    overflow-x: hidden;
 }
 
 .flex {
@@ -269,4 +328,12 @@ body {
 
 .br-5 {
     border-radius: 5px;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
 }
